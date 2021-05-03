@@ -1,0 +1,20 @@
+[
+  {
+    "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78ea4f",
+    "price": 3488.99,
+    "actualprice": 3488.99,
+    "promotionPrice": 2588.99,
+    "orderLimited": 3,
+    "name": "KONE",
+    "description": "Amway Product."
+  },
+  {
+    "id": "bdcbe438-ac85-4acf-8949-5627fd5b57df",
+    "price": 529.99,
+    "actualprice": 3488.99,
+    "promotionPrice": 300.99,
+    "orderLimited": 10,
+    "name": "Ironhide Cartridge",
+    "description": "Amway Product."
+  }
+]

@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="small-12 columns">
+    <h3>
+      <i class="material-icons">shopping_basket</i>
+      Your Shopping Basket
+    </h3>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="small-12 columns">
+    <h5>
+      Sub Total ({{itemCount}} items): 
+      <span class="text--red text--bold js-cart-total">{{(cart | async).grossTotal | currency:'PKR':true}}</span>
+    </h5>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="small-12 columns">
+    <a class="success button large expanded"
+       [attr.disabled]="itemCount === 0 ? true : null"
+       routerLink="/checkout">Proceed To Shopping</a>
+  </div>
+</div>
+
